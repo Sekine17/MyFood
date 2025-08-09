@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+        font-family: "Karma", sans-serif;
+        margin: 0;
+        padding: 0;
+        
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    align-items: center;
+    position: fixed;
+}
+
+.navlinks ul {
+    display: flex;
+
+}
+
+.navlinks ul li{
+    list-style: none;
+}
+
+.myfood {
+    margin-left: 30px;
+}
+
+.myfood h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navlinks ul li a{
+    text-decoration:none ;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    
+}
+
+.navlinks ul {
+    margin-right: 30px;
+}
+
+.navlinks ul li{
+    background-size: 20px 0px;
+    
+}
+
+.navlinks ul li a:hover{
+    background-color: #dcdcdc ;
+}
+
+.ikinci{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#sekil{
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.ilk4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.ilk4 div{
+    text-align: center;
+    height: 500px;
+}
+
+.donuzdiv p{
+    width: 310px;
+}
+
+.etdiv p{
+    width: 310px;
+}
+
+.yumurtadiv p{
+    width: 310px;
+}
+
+.sezardiv p{
+    width: 300px;
+}
+
+.ilk4 h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ilk4 h4{
+    font-size: 20px;
+}
+
+hr{
+    border: 0.2px solid #f0efef;
+    width: 60%;
+    margin: auto;
+}
+
+.shef{
+    width: 800px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.aboutme{
+    text-align: center;
+    font-weight: 500;
+}
+
+.iam{
+    text-align: center;
+}
+
+.iam h3{
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.iam p{
+   margin-left: 150px;
+   margin-right: 150px;
+   margin-bottom: 40px;
+}
+
+.contact{
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 26px;
+    margin-top: 10px;
+}
